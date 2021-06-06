@@ -2,8 +2,8 @@
 
 <div>
     {{#each drones}}
-    <p>Name: {{name}}</p>
-    <p>Propellers: {{propellers}}</p>
-    <p>maxSpeed: {{maxSpeed}}</p>
+    <p>Name: {{this.name}}</p>
+    <p>Propellers: {{this.propellers}}</p>
+    <p>maxSpeed: {{this.maxSpeed}}</p>
     {{/each}}
 </div>
